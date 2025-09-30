@@ -24,7 +24,7 @@ def round_robin_balancer():
     # Basic email validation
     if not email or '@' not in email or '.' not in email:
         
-html = """<!doctype html>
+        html = """<!doctype html>
 <html lang="en">
 <head><meta charset="utf-8"><title>Invalid Email</title></head>
 <body style="margin:0;background:#0f1724;display:flex;align-items:center;justify-content:center;height:100vh;font-family:Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial;">
@@ -56,8 +56,8 @@ html = """<!doctype html>
 </html>
 """
 
-# return using Flask Response
-return Response(html, status=400, mimetype='text/html; charset=utf-8')
+        # return using Flask Response
+        return Response(html, status=400, mimetype='text/html; charset=utf-8')
 
     
     # Get next domain in round-robin sequence
